@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  // background-color: #333;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+}
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+.top-hero{
+  position: relative;
+  height: 350px;
+  background-image: url("../img/zamek.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+  }
+  .top-hero-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 3.7rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+//  nawigacja
+.navbar-brand {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.navbar-nav {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.nav-link:hover {
+  color: royalblue;
+}
+.navbar-toggler {
+  font-size: 2rem;
+  padding: 1em 2em;
+}
+// header
+.header {
+  font-size: 2rem;
+}
+.carousel-item {
+  position: relative;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+.carousel-img-one {
+  background-image: url("../img/light_image.jpeg");
+}
+.carousel-img-two {
+  background-image: url("../img/03.jpeg");
+}
+.carousel-img-three {
+  background-image: url("../img/45.jpeg");
+}
+@media (min-width: 992px) {
+  .carousel-item {
+    height: 600px;
+  }
+  // zmiana obrazków
+}
+// home
+.about-us {
+  h1 {
+    font-weight: bold;
+  }
+}
+.home-boxes {
+  padding: 5em 0;
+  .fas {
+    font-size: 5rem;
+  }
+  h3 {
+    font-size: 2.6rem;
+  }
+}
+.home-passion {
+  position: relative;
+  height: 350px;
+  background-image: url("../img/sea.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+  font-size: 2.5rem;
+}
+/* footer */
+footer {
+  font-size: 1.8rem;
+}
+// contact
+
+.contact-map {
+  iframe {
+    width: 100%;
+    min-height: 400px;
+  }
+}
